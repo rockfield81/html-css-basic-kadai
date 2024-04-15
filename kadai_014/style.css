@@ -1,3 +1,9 @@
+html {
+
+  font-size: 20px;
+
+}
+
 body {
 
   font-family: "Arial", "Meiryo", sans-serif;
@@ -9,33 +15,28 @@ h1 {
 
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: bold;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 40px;
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 1px gray;
   border-bottom: solid 3px rgb(115,115,114);
 
 }
 
-h2 {
-
-  font-size: 20px;
-
-}
-
 #parent .bold {
-  
-  font-weight: bold;
+
+ font-weight: bold;
 }
 
-#pink {
+
+.pink {
 
   color: rgb(255,192,203);
 
 }
 
-#blue {
+.blue {
 
   color: skyblue;
 
