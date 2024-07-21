@@ -1,0 +1,164 @@
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+  }
+  
+  p a {
+    font-size: 20px;
+  }
+  
+  header {
+    background-color: rgb(244,79,79);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+  }
+  
+  main {
+    text-align: center;
+    margin: 20px 30px;
+    display: flex;
+  }
+  
+  #parent {
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  .contents {
+    border: solid 3px rgb(238, 204, 204);
+    padding: 10px 15px;
+    margin: 20px 0;
+    flex-basis: 25%;
+  }
+  
+  .contents img {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236, 122, 122);
+  }
+  
+  h2::before {
+    content: "●";
+    color: rgb(239, 111, 139);
+  }
+
+  p {
+    margin: 0;
+  }
+  
+  div p:nth-child(3)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+  }
+  
+  footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited {
+    color: rgb(193, 234, 251);
+  }
+  
+  a:hover {
+    color: rgb(245, 178, 168);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+
+  p a {
+    font-size: 25px;
+  }
+
+  header {
+    background-color: rgb(244,79,79);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+  }
+
+  main {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contents {
+    border: solid 3px rgb(238, 204, 204);
+    padding: 10px 15px;
+    margin: 20px 0;
+    flex-basis: 25%;
+  }
+
+  
+  .contents img {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236, 122, 122);
+  }
+  
+  h2::before {
+    content: "●";
+    color: rgb(239, 111, 139);
+  }
+
+  p { 
+    margin: 0;
+  }
+  
+  div p:nth-child(3)::first-letter {
+    font-weight: bold;
+    color: rgb(97, 206, 249);
+  }
+  
+  footer {
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited {
+    color: rgb(193, 234, 251);
+  }
+  
+  a:hover {
+    color: rgb(245, 178, 168);
+  }
+
+}
